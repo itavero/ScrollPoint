@@ -1,0 +1,10 @@
+{
+	"extName": {
+		"message":	"ScrollPoint",
+		"description":	"Extension name."
+	},
+	"description": {
+		"message":	"Reenables scrolling on most SharePoint sites in Google Chrome.",
+		"description":	"Extension description."
+	}
+}
