@@ -1,7 +1,5 @@
-// Run on installation
-chrome.runtime.onInstalled.addListener(function onInit() {
-	chrome.webNavigation.onCompleted.addListener(onNavCompleted);
-});
+// Hook up event
+chrome.webNavigation.onCompleted.addListener(onNavCompleted);
 
 // Run on navigation completed
 function onNavCompleted(details) {

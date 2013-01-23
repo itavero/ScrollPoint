@@ -1,6 +1,6 @@
 {
   "name": "__MSG_extName__",
-  "version": "1.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "__MSG_description__",
   "default_locale": "en",
@@ -12,8 +12,7 @@
   },
   "offline_enabled": true,
   "background": {
-  	"scripts": ["spoint_bg.js"],
-  	"persistent": false
+  	"scripts": ["spoint_bg.js"]
   },
   "permissions": [
   	"tabs",
